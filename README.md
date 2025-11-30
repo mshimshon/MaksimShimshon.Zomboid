@@ -1,6 +1,6 @@
 # Season 1
 
-## ⚔️ Melee Weapons Durability
+## Melee Weapons Durability
 - [ ] Define durability tiers:
   - [ ] Hand Crafted = Normal
   - [ ] Repaired = Low
@@ -15,7 +15,7 @@
 
 ---
 
-## 🪚 Fences Durability & Panels
+## Fences Durability & Panels
 - [ ] Define fence durability tiers:
   - [ ] Hand Crafted = Normal
   - [ ] Repaired = Normal
@@ -32,7 +32,7 @@
 
 ---
 
-## 📦 Container Controller (Whitelist Loot All)
+## Container Controller (Whitelist Loot All)
 - [ ] Create container whitelist system
 - [ ] Hook into "Loot All" action
 - [ ] Filter items against whitelist during transfer
@@ -44,7 +44,7 @@
 
 ---
 
-## 🧩 Tetris UI Freeze
+## Tetris UI Freeze
 - [ ] Extend inventory UI (ISInventoryPane)
 - [ ] Add "locked slot" property for items
 - [ ] Implement auto-return to defined slot
@@ -56,7 +56,7 @@
 
 # Season 2
 
-## 🛠 Vanilla Build Menu (Basic Crafting)
+## Vanilla Build Menu (Basic Crafting)
 - [ ] Preserve vanilla build menu functionality
 - [ ] Ensure basic recipes remain accessible everywhere
 - [ ] Verify compatibility with other mods that add simple recipes
@@ -64,7 +64,7 @@
 
 ---
 
-## 🏭 Contextual Factory Crafting (Advanced Recipes)
+## Contextual Factory Crafting (Advanced Recipes)
 - [ ] Define factory categories:
   - [ ] Weapon Factory (guns, ammo)
   - [ ] Furniture Factory (commercial furniture)
@@ -83,7 +83,7 @@
 
 ---
 
-## 🎲 Randomized Factory Locations
+## Randomized Factory Locations
 - [ ] Define pool of eligible industrial buildings (warehouses, mills, depots)
 - [ ] Implement random assignment of factory roles at world generation
 - [ ] Store assignments in ModData for persistence across saves
@@ -95,7 +95,7 @@
 
 ---
 
-## ⚙️ Performance & Stability
+## Performance & Stability
 - [ ] Limit recipe lists per factory to reduce lag
 - [ ] Confirm factory crafting performance matches vanilla crafting
 - [ ] Test large recipe sets without crashing
@@ -103,7 +103,7 @@
 
 ---
 
-## 🎮 Gameplay & Balance
+## Gameplay & Balance
 - [ ] Balance resource requirements for commercial grade items
 - [ ] Add progression dependencies (e.g., Foundry required for metal recipes)
 - [ ] Sandbox option: enable/disable contextual crafting
@@ -112,7 +112,7 @@
 
 # Season 3
 
-## 📊 Global Ledger
+## Global Ledger
 - [ ] Create global ledger for each item type
 - [ ] Track SoldToTrader count (supply inflow)
 - [ ] Track BoughtFromTrader count (demand outflow)
@@ -120,7 +120,7 @@
 
 ---
 
-## ⚖️ Balance Logic
+## Balance Logic
 - [ ] Implement rule: if players buy trader stock → traders buy from players
 - [ ] Implement rule: if players only sell → traders stop buying (oversupply collapse)
 - [ ] Ensure traders only buy items with active demand
@@ -128,7 +128,7 @@
 
 ---
 
-## 💰 Dynamic Pricing
+## Dynamic Pricing
 - [ ] Define base price for each item
 - [ ] Calculate price = BasePrice × (Demand / Supply)
 - [ ] Increase price for scarce items
@@ -137,7 +137,7 @@
 
 ---
 
-## 🧑‍🤝‍🧑 Trader Integration
+## Trader Integration
 - [ ] Apply global ledger to all traders equally
 - [ ] Sync trader stock across multiplayer
 - [ ] Rotate trader inventories based on global supply/demand
@@ -145,7 +145,7 @@
 
 ---
 
-## ⚙️ Performance & Stability
+## Performance & Stability
 - [ ] Optimize ledger updates to avoid lag
 - [ ] Test multiplayer sync of global stock data
 - [ ] Verify persistence across server restarts
