@@ -1,3 +1,53 @@
+# Season Pipeline Model
+
+## Timeline
+- Season 0 (Pre-launch): Develop Season 1 mods
+- Season 1 (4 months): 
+  - RELEASE: Season 1 mods (public testing)
+  - DEVELOP: Season 2 mods (private dev)
+  - FIX: Season 1 bugs/balance
+- Season 2 (4 months):
+  - RELEASE: Season 2 mods (battle-tested from dev)
+  - DEVELOP: Season 3 mods
+  - FIX: Season 2 bugs/balance
+- Repeat...
+
+## Full Reset
+Every 4 months, new season drops with:
+- Fresh mods (debugged during previous season's dev)
+- Previous season stays live but in "maintenance mode"
+- Community gets predictable content cadence
+
+
+# Tetris UI - Season 0 (Foundational System Mod)
+
+## Core Systems
+- [ ] Slot freezing/locking mechanism
+- [ ] Item size/weight rebalance framework
+- [ ] Container capacity overhaul (backpacks, bags, etc.)
+- [ ] UI scaling system for visual inventory representation
+
+## Vanilla Item Overhaul
+- [ ] Audit ALL vanilla items
+- [ ] Define logical size:weight ratios
+- [ ] Rebalance container capacities
+- [ ] Update UI grid representations
+- [ ] Test inventory interactions (stacking, combining, etc.)
+
+## Mod Compatibility Layer
+- [ ] Detection system for modded items
+- [ ] Auto-categorization for unknown items
+- [ ] Manual override system for mod authors
+- [ ] Documentation for mod compatibility
+- [ ] Test with popular mods (Brita's, Arsenal, etc.)
+
+## QoL Features
+- [ ] Visual indicators for locked slots
+- [ ] Quick-lock/unlock hotkeys
+- [ ] Container weight/space displays
+- [ ] Overflow handling
+- [ ] Multiplayer sync
+
 # Season 1
 
 ## Melee Weapons Durability
@@ -40,18 +90,6 @@
 - [ ] Add UI for setting whitelist per container
 - [ ] Test with multiple container types (crates, lockers, bags)
 - [ ] Verify multiplayer sync of whitelist rules
-- [ ] Package mod scripts and metadata
-
----
-
-## Tetris UI Freeze
-- [ ] Extend inventory UI (ISInventoryPane)
-- [ ] Add "locked slot" property for items
-- [ ] Implement auto-return to defined slot
-- [ ] Handle overflow gracefully (slot filled → normal placement)
-- [ ] Add toggle option for players (enable/disable freeze)
-- [ ] Test with common items (ammo, magazines, meds)
-- [ ] Verify multiplayer inventory sync
 - [ ] Package mod scripts and metadata
 
 # Season 2
