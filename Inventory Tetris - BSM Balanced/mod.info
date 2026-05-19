@@ -1,0 +1,7 @@
+name=Inventory Tetris - AoL Balanced
+id=aol_tetris_balanced
+description= Balance for Grid Items, Weight Item and Backpack grid layout.
+poster=logo.png
+icon=logo_mini.png
+modversion=1.0
+require=INVENTORY_TETRIS,
